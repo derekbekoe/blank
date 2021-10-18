@@ -4,4 +4,4 @@ class HelloWorldUser(HttpUser):
     @task
     def hello_world(self):
         self.client.get("/")
-        # self.client.get("/javascripts/repro.js")
+        self.client.get("/javascripts/repro.js")
